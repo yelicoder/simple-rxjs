@@ -12,5 +12,7 @@ use node to run rxjs code
 3. bufferCount: https://rxjs.dev/api/index/function/bufferCount
 4. bufferTime: https://rxjs.dev/api/index/function/bufferTime
 5. bufferToggle: https://rxjs.dev/api/index/function/bufferToggle
+6. bufferWhen
+7. window: https://rxjs.dev/api/operators/window
 
 
