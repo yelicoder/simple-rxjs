@@ -8,7 +8,7 @@ const closing = () => interval(500).pipe(tap(() => console.log('close')));
  
 numbers.pipe(
     tap(x => console.log(x)),
-    bufferToggle(opening, closing),
+    bufferToggle(opening, closing),// close 500ms after open
     take(3)
 )
 .subscribe(sequence => {
